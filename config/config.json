@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "karmapapers-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/karmapapersWebpart/KarmapapersWebpartWebPart.js",
+          "manifest": "./src/webparts/karmapapersWebpart/KarmapapersWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KarmapapersWebpartWebPartStrings": "lib/webparts/karmapapersWebpart/loc/{locale}.js"
+  }
+}

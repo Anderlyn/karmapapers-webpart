@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "karmapapers-webpart-client-side-solution",
+    "id": "bbe888e4-bb92-4aec-9c5f-089fb12729ae",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/karmapapers-webpart.sppkg"
+  }
+}
